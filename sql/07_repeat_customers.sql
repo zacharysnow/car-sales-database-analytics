@@ -1,0 +1,7 @@
+SELECT 
+    CUSTOMERID,
+    COUNT(*) AS Purchase_Count
+FROM SALE
+GROUP BY CUSTOMERID
+HAVING COUNT(*) > 1
+ORDER BY Purchase_Count DESC;
