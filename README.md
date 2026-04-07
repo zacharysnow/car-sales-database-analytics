@@ -4,27 +4,6 @@ This project designs and analyzes a relational database for car sales data using
 
 ---
 
-## 📁 Project Structure
-car-sales-database-analytics/
-├── sql/
-│ ├── schema_and_data.sql
-│ ├── 01_top_selling_car_models.sql
-│ ├── 02_average_sale_price_by_make_model_year.sql
-│ ├── 03_yearly_sales_trend.sql
-│ ├── 04_sales_above_average_sale_price.sql
-│ ├── 05_avg_transaction_value_per_salesperson.sql
-│ ├── 06_average_commission_per_salesperson.sql
-│ └── 07_repeat_customers.sql
-│
-├── images/
-│ ├── entity-relationship.png
-│ ├── relational-schema.png
-│ └── top-cars-by-price.png
-│
-└── README.md
-
-
----
 
 ## 🧱 Database Design
 
