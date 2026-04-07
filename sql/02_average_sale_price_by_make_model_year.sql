@@ -1,0 +1,9 @@
+SELECT 
+    c.CAR_MAKE,
+    c.CAR_MODEL,
+    c.CAR_YEAR,
+    ROUND(AVG(s.SALEPRICE), 2) AS Avg_Sale_Price
+FROM SALE s
+JOIN CAR c ON s.CARID = c.CARID
+GROUP BY c.CAR_MAKE, c.CAR_MODEL, c.CAR_YEAR
+ORDER BY Avg_Sale_Price DESC;
