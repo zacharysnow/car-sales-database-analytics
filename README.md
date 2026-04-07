@@ -6,7 +6,6 @@ This project designs and analyzes a relational database for car sales data using
 
 ## 📁 Project Structure
 car-sales-database-analytics/
-│
 ├── sql/
 │ ├── schema_and_data.sql
 │ ├── 01_top_selling_car_models.sql
